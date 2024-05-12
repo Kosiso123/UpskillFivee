@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: 20px;
+}
+.heading1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    
+    
+}
+.img1 span{
+    font-size: 13px;
+    font-weight: 100;
+}
+.img2 span{
+    font-size: 13px;
+    font-weight: 100;
+}
+.img-container img{
+    width: 25px;
+    
+}
+
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container .img1,
+.img-container .img2 {
+    display: flex;
+    align-items: center;
+}
+
+.img-container .img1 img,
+.img-container .img2 img {
+    width: 20px;
+    
+}
+
+.img-container .img1 ,
+.img-container .img2  {
+    margin-left: 50px; 
+}
+.media a img{
+    width: 15px;
+    justify-content: space-between;
+  
+    filter: invert(1) brightness(0); 
+    
+   
+}
+
+
+
+.media a{
+    margin-right: 40px;
+} 
+
+.image-container {
+    display: inline-block; 
+    background-color: grey; 
+    padding: 5px; 
+    transition: background-color 0.3s ease; 
+    padding: 10px;
+    border-radius: 60%;
+}
+.image-container:hover{
+    background-color: rgba(255, 72, 0, 0.808);
+}
+
+.heading2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+.heading2 ul{
+    margin-left: 50%;
+}
+nav a{
+    justify-content: space-between;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: brown;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    
+
+}
+.heading2 .logo{
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 5px 10px 30px;
+    /* font-size: 20px; */
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+}
+.heading2 img{
+    width: 40px;
+    display: inline-block; 
+    background-color: brown;     
+    padding: 10px;
+    border-radius: 30px;
+    position: absolute;
+    right: 170px;
+    z-index: 1;
+}
